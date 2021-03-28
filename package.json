@@ -1,21 +1,24 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
-  "hexo": {
-    "version": "4.2.0"
+  "name": "leansocket.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "hexo": "^4.2.0",
-    "hexo-asset-image": "1.0.0",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^2.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shichenzia/leansocket.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shichenzia/leansocket.github.io/issues"
+  },
+  "homepage": "https://github.com/Shichenzia/leansocket.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
   }
 }
