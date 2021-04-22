@@ -1,6 +1,8 @@
 # nodex-cli 
 [nodex-cli](https://github.com/leansocket/nodex-cli) 是一个基于` nodex-libs `，可以快速搭建繁杂的脚手架，以提升工作效率。
 
+同时，我们推荐直接使用脚手架，只需几条简单指令，即可快速生成项目（npm >=6.1.0）。
+
 ## 安装
 `nodex-cli` 可以使用npm进行全局安装，并使用 ` nodex -h ` 来获取帮助
 
@@ -9,7 +11,7 @@ $ npm i nodex-cli -g
 $ nodex -h
 ```
 
-## 创建一个项目
+## 创建项目
 ### nodex init
 ---
 运行以下命令来创建一个新项目：
@@ -39,6 +41,16 @@ Commands:
   start           start a project.
   help [command]  display help for command
 ```
+## 启动项目
+`nodex-cli` 可以使用npm 或 nodex来启动
+
+```bash
+$ npm run dev
+$ nodex start
+
+open http://localhost:8080
+```
+
 ## 文件结构
 
 采用nodex-libs脚手架创建一个nodex服务项目的初始模板。
